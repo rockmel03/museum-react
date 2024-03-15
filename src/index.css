@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "untitled-sans";
+    src: url(./assets/fonts/untitled-sans-medium.woff2);
+    /* font-weight: 600; */
+  }
+  @font-face {
+    font-family: "untitled-serif";
+    src: url(./assets/fonts//untitled-serif-regular.woff2);
+    /* font-weight: 400; */
+  }
+  
+  
+  :root {
+    --color-white: #ffffff;
+    --color-black: #171615;
+  }
+  *::selection {
+    background-color: var(--color-white);
+    color: var(--color-black);
+  }
+  /* .hero__date_wrapper div {
+    font-family: "untitled-serif";
+  }
+   */
