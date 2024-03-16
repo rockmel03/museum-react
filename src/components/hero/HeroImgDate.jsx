@@ -35,7 +35,7 @@ const HeroImgDate = ({ data = "1898" }) => {
         scroller: "body",
         trigger: " .hero__num-wrapper",
         // markers: true,
-        start: "50% 80%",
+        start: "50% 85%",
       },
     });
   }, []);
