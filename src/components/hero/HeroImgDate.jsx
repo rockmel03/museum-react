@@ -34,6 +34,7 @@ const HeroImgDate = ({ data = "1898" }) => {
       scrollTrigger: {
         scroller: "body",
         trigger: " .hero__num-wrapper",
+        triggerAction: "restart",
         // markers: true,
         start: "50% 85%",
       },
@@ -41,7 +42,7 @@ const HeroImgDate = ({ data = "1898" }) => {
   }, []);
 
   return (
-    <div className="hero__date_wrapper flex flex-row w-fit h-[9em] text-[2vw] font-medium leading-none overflow-hidden">
+    <div className="hero__date_wrapper flex-shrink-0 flex flex-row w-fit h-[9em] text-[3vw] md:text-[2vw] font-medium leading-none overflow-hidden">
       {data.split("")?.map((num, idx) => (
         <Number key={idx} number={num} />
       ))}

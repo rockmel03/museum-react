@@ -2,10 +2,10 @@ import React from "react";
 
 const Video = () => {
   return (
-    <section className="video">
-      <h2 className=" text-3xl mb-5">(6) Related videos</h2>
-      <div className="flex p-5 gap-5">
-        <div className="flex-1 overflow-hidden relative">
+    <section className="video my-3">
+      <h2 className=" text-xl md:text-3xl ml-2 mb-5">(6) Related videos</h2>
+      <div className="flex flex-col md:flex-row md:p-5 gap-5">
+        <div className="flex-1 w-full overflow-hidden relative">
           <img
             src="/thumbnail1.jpg"
             alt=""
@@ -15,7 +15,7 @@ const Video = () => {
             <i className="ri-play-large-fill"></i>
           </span>
         </div>
-        <div className="flex-1 overflow-hidden relative">
+        <div className="flex-1 w-full overflow-hidden relative">
           <img
             src="/thumbnail2.jpg"
             alt=""

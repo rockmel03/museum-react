@@ -6,7 +6,7 @@ const ArrowTouch = () => {
   return (
     <div className="relative py-10 flex gap-10 flex-col items-center justify-center px-5">
       <div className="w-[1px] bg-white h-[20vh]"></div>
-      <h2 className="text-center font-serif font-medium text-4xl">
+      <h2 className="text-center font-serif font-medium text-[2rem] md:text-4xl">
         In the following section,
         <br /> hold the cursor down to <br />
         reveal the complete work.

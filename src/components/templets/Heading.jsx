@@ -26,7 +26,7 @@ const Heading = ({ heading }) => {
         stagger: 0.2,
         scrollTrigger: {
           trigger: `#${containerId} .heading`,
-        //   markers: true,
+          //   markers: true,
           start: "50% 85%",
           end: "50% 30%",
         },
@@ -39,11 +39,11 @@ const Heading = ({ heading }) => {
       <div
         id={containerId}
         ref={containerRef}
-        className="min-h-[60vh] p-5 flex flex-col justify-end"
+        className=" min-h-[25vh] md:min-h-[60vh] p-2 md:p-5 flex flex-col justify-end"
       >
         {heading.split(" ").map((item, idx) => (
           <div key={idx} className="heading overflow-hidden">
-            <h1 className="text-[9rem] font-medium leading-[7.5rem] tracking-tighter uppercase">
+            <h1 className=" text-[11vw] md:text-[6rem] lg:text-[9rem] font-medium leading-[0.9em] md:leading-[5.5rem] lg:leading-[7.5rem] tracking-[-0.08em] md:tracking-[-0.05em] uppercase">
               {item.split("_").join(" ")}
             </h1>
           </div>

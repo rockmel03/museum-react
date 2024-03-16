@@ -1,35 +1,18 @@
-import React, { useEffect } from "react";
-import { gsap } from "gsap";
-import { useGSAP } from "@gsap/react";
-import { stagger, useAnimate } from "framer-motion";
+import React from "react";
 
 const HeroTop = () => {
-  // useGSAP(() => {
-  //   gsap.from(".hero__top-heading h1", {
-  //     y: 110,
-  //     duration: 0.6,
-  //     stagger: 0.2,
-  //   });
-  // }, []);
-
-  const [scope, animate] = useAnimate();
-
-  useEffect(() => {
-    animate("h1", { y: "100" }, { delay: stagger(0.5) });
-  }, []);
-
   return (
-    <div
-      ref={scope}
-      className="hero__top min-h-[63vh] p-5 flex flex-col justify-end"
-    >
+    <div className="hero__top min-h-[45vh] md:min-h-[60vh] p-2 md:p-5 flex flex-col justify-end">
+      <div className="hero__top-heading overflow-hidden  md:hidden sm:block">
+        <h3 className="text-lg mb-2">(Juan Manuel Blanes)</h3>
+      </div>
       <div className="hero__top-heading overflow-hidden">
-        <h1 className="text-[9rem] font-medium leading-[7.5rem] tracking-tighter">
+        <h1 className=" text-[11vw] md:text-[6rem] lg:text-[9rem] font-medium leading-[0.85em] md:leading-[5.5rem] lg:leading-[7.5rem] tracking-[-0.08em] md:tracking-[-0.05em]">
           RESURGENCE OF
         </h1>
       </div>
       <div className="hero__top-heading overflow-hidden">
-        <h1 className="text-[9rem] font-medium leading-[7.5rem] tracking-tighter">
+        <h1 className=" text-[11vw] md:text-[6rem] lg:text-[9rem] font-medium leading-[0.85em] md:leading-[5.5rem] lg:leading-[7.5rem] tracking-[-0.08em] md:tracking-[-0.05em]">
           THE HOMELAND
         </h1>
       </div>
