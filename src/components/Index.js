@@ -1,5 +1,6 @@
 import Footer from "./Footer";
 import Header from "./Header";
+import Polygon from "./Polygon";
 import Audio from "./audio/Audio";
 import Hero from "./hero/Hero";
 import Information from "./info/Information";
@@ -21,5 +22,6 @@ export {
     Heading,
     Loader,
     Navbar,
-    Video
+    Video,
+    Polygon,
 }

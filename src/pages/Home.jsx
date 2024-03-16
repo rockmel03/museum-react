@@ -11,6 +11,7 @@ import {
 } from "../components/Index";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import Polygon from "../components/Polygon";
 
 const infoData = [
   {
@@ -92,6 +93,7 @@ const Home = () => {
         <Video />
         <Information {...infoData[2]} />
         <Information {...infoData[3]} />
+        <Polygon />
         <Footer />
       </Container>
     </main>
