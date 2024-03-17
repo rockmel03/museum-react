@@ -22,7 +22,7 @@ const HeroImg = () => {
   });
 
   return (
-    <div className="hero__img-overlay h-full relative overflow-hidden">
+    <div className="hero__img-overlay w-[180%] md:w-full h-full relative left-1/2 -translate-x-1/2 overflow-hidden">
       <img
         src="/img1.webp"
         alt=""

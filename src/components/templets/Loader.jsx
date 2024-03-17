@@ -33,8 +33,8 @@ const Loader = () => {
   }, []);
 
   return (
-    <div className="loader w-screen h-screen px-10 py-5 bg-[var(--color-white)] text-[var(--color-black)] fixed top-0 left-0 z-[99] flex items-end">
-      <h1 className="text-[10vw] font-semibold">{counter}</h1>
+    <div className="loader w-screen h-screen px-5 md:px-10 py-5 bg-white text-primary fixed top-0 left-0 z-[99] flex items-end">
+      <h1 className="text-8xl md:text-[10vw] font-semibold">{counter}</h1>
     </div>
   );
 };
