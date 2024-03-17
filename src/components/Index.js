@@ -1,3 +1,4 @@
+import Cursor from "./Cursor";
 import Footer from "./Footer";
 import Header from "./Header";
 import Polygon from "./Polygon";
@@ -24,4 +25,5 @@ export {
     Navbar,
     Video,
     Polygon,
+    Cursor,
 }
