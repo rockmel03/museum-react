@@ -5,7 +5,7 @@ import HeroImgDate from "./HeroImgDate";
 
 const Hero = () => {
   return (
-    <section data-scroll-section className="hero w-full">
+    <section data-scroll-section className="hero w-full overflow-x-hidden">
       <HeroTop />
       <HeroImg />
       <div className="hero__img-info w-full flex gap-5 items-end px-2 md:px-5 py-5 md:py-10">
